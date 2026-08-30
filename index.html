@@ -1,195 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Homedine</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homedine</title>
 </head>
+
 <body>
+    <header>
+        <nav aria-label="Main navigation">
+            <div>
+                <a href="#shop">Shop</a>
+                <a href="#bestsellers">Bestsellers</a>
+                <a href="#categories">Categories</a>
+                <a href="#about">About</a>
+            </div>
 
-  <header>
-    <nav aria-label="Main navigation">
-      <div>
-        <a href="#shop">Shop</a>
-        <a href="#bestsellers">Bestsellers</a>
-        <a href="#categories">Categories</a>
-        <a href="#about">About</a>
-      </div>
+            <a href="#" aria-label="home page">Homedine</a>
 
-      <a href="#" aria-label="Homedine home page">Homedine</a>
+            <div>
+                <form action="#" method="get" role="search">
+                    <label for="search">Search products</label>
+                    <input id="search" name="q" type="search" placeholder="Search products">
+                    <button type="submit">Search</button>
+                </form>
 
-      <div>
-        <form action="#" method="get" role="search">
-          <label for="search">Search products</label>
-          <input id="search" name="q" type="search" placeholder="Search products">
-          <button type="submit">Search</button>
-        </form>
+                <a href="#cart" aria-label="Shopping cart">Cart</a>
+                <a href="#account" aria-label="Account">Person</a>
+            </div>
+        </nav>
+    </header>
 
-        <a href="#cart" aria-label="Shopping cart">Cart</a>
-        <a href="#account" aria-label="Account">Person</a>
-      </div>
-    </nav>
-  </header>
+    <main>
+        <section aria-labelledby="hero-title">
+            <img src="https://images.unsplash.com/photo-1633174102592-33d2456834f5?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+        alt=" Modern kitchen interior">
 
-  <main>
-    <section aria-labelledby="hero-title">
-      <img
-        src="https://images.unsplash.com/photo-1633174102592-33d2456834f5?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-        alt="Modern kitchen interior"
-      >
+            <div>
+                <p>Eco Essentials</p>
+                <h1 id="hero-title">Eco-Friendly Kitchenware for a greener home</h1>
+                <p>Thoughtfully designed essentials made for everyday cooking, serving and living with less waste.</p>
+                <a href="#shop">Shop now</a>
+            </div>
+        </section>
 
-      <div>
-        <p>Eco Essentials</p>
-        <h1 id="hero-title">Eco-Friendly Kitchenware for a greener home</h1>
-        <p>Thoughtfully designed essentials made for everyday cooking, serving and living with less waste.</p>
-        <a href="#shop">Shop now</a>
-      </div>
-    </section>
+        <section id="categories" aria-labelledby="categories-title">
+            <header>
+                <p>Explore</p>
+                <h2 id="categories-title">Shop by category</h2>
+                <a href="#all-categories">View all</a>
+            </header>
 
-    <section id="categories" aria-labelledby="categories-title">
-      <header>
-        <p>Explore</p>
-        <h2 id="categories-title">Shop by category</h2>
-        <a href="#all-categories">View all</a>
-      </header>
+            <div id="all-categories">
+                <article>
+                    <a href="#drinkware">
+                        <img src="https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=700&q=80"
+                            alt="Reusable green water bottle">
+                        <h3>Drinkware</h3>
+                        <span>Explore</span>
+                    </a>
+                </article>
 
-      <div id="all-categories">
-        <article>
-          <a href="#drinkware">
-            <img src="https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=700&q=80" alt="Reusable green water bottle">
-            <h3>Drinkware</h3>
-            <span>Explore</span>
-          </a>
-        </article>
+                <article>
+                    <a href="#cookware">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYzm7Iv1k-PxANBqKG-Uce1IRp-0Nuurib8RWPwBjG16I0PD7rxmLW_Dw&s=10"
+                            alt="Cookware in a kitchen">
+                        <h3>Cookware</h3>
+                        <span>Explore</span>
+                    </a>
+                </article>
 
-        <article>
-          <a href="#cookware">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYzm7Iv1k-PxANBqKG-Uce1IRp-0Nuurib8RWPwBjG16I0PD7rxmLW_Dw&s=10"  alt="Cookware in a kitchen">
-            <h3>Cookware</h3>
-            <span>Explore</span>
-          </a>
-        </article>
+                <article>
+                    <a href="#tableware">
+                        <img src="https://static.vecteezy.com/system/resources/thumbnails/038/936/847/small/ai-generated-kitchen-utensils-on-wooden-table-over-blue-wall-background-photo.jpg"
+                            alt="Wooden kitchen utensils">
+                        <h3>Tableware</h3>
+                        <span>Explore</span>
+                    </a>
+                </article>
 
-        <article>
-          <a href="#tableware">
-            <img src="https://static.vecteezy.com/system/resources/thumbnails/038/936/847/small/ai-generated-kitchen-utensils-on-wooden-table-over-blue-wall-background-photo.jpg" alt="Wooden kitchen utensils">
-            <h3>Tableware</h3>
-            <span>Explore</span>
-          </a>
-        </article>
+                <article>
+                    <a href="#storage">
+                        <img src="https://images.unsplash.com/photo-1590794056226-79ef3a8147e1?auto=format&fit=crop&w=700&q=80"
+                            alt="Reusable food storage containers">
+                        <h3>Food Storage</h3>
+                        <span>Explore</span>
+                    </a>
+                </article>
+            </div>
+        </section>
 
-        <article>
-          <a href="#storage">
-            <img src="https://images.unsplash.com/photo-1590794056226-79ef3a8147e1?auto=format&fit=crop&w=700&q=80" alt="Reusable food storage containers">
-            <h3>Food Storage</h3>
-            <span>Explore</span>
-          </a>
-        </article>
-      </div>
-    </section>
+        <section id="bestsellers" aria-labelledby="bestsellers-title">
+            <header>
+                <p>Eco essentials</p>
+                <h2 id="bestsellers-title">Bestselling products</h2>
+                <a href="#products">More products</a>
+            </header>
 
-    <section id="bestsellers" aria-labelledby="bestsellers-title">
-      <header>
-        <p>Eco essentials</p>
-        <h2 id="bestsellers-title">Bestselling products</h2>
-        <a href="#products">More products</a>
-      </header>
+            <div id="products">
+                <article>
+                    <p>Bestseller</p>
+                    <img src="https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=700&q=80"
+                        alt="Reusable green drinkware bottle">
+                    <h3>Reusable drinkware for a greener lifestyle</h3>
+                    <p>Durable stainless steel bottle.</p>
+                    <p aria-label="5 out of 5 stars">★★★★★ <span>(48)</span></p>
+                    <p>$43.05</p>
+                    <a href="#cart">Add to Cart</a>
+                </article>
 
-      <div id="products">
-        <article>
-          <p>Bestseller</p>
-          <img src="https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=700&q=80" alt="Reusable green drinkware bottle">
-          <h3>Reusable drinkware for a greener lifestyle</h3>
-          <p>Durable stainless steel bottle.</p>
-          <p aria-label="5 out of 5 stars">★★★★★ <span>(48)</span></p>
-          <p>$43.05</p>
-          <a href="#cart">Add to Cart</a>
-        </article>
+                <article>
+                    <p>New</p>
+                    <img src="https://images.unsplash.com/photo-1590794056226-79ef3a8147e1?auto=format&fit=crop&w=700&q=80"
+                        alt="Non-toxic cookware set">
+                    <h3>Non-toxic cookware for sustainable cooking</h3>
+                    <p>Long-lasting everyday cookware.</p>
+                    <p aria-label="5 out of 5 stars">★★★★★ <span>(32)</span></p>
+                    <p>$78.35</p>
+                    <a href="#cart">Add to Cart</a>
+                </article>
 
-        <article>
-          <p>New</p>
-          <img src="https://images.unsplash.com/photo-1590794056226-79ef3a8147e1?auto=format&fit=crop&w=700&q=80" alt="Non-toxic cookware set">
-          <h3>Non-toxic cookware for sustainable cooking</h3>
-          <p>Long-lasting everyday cookware.</p>
-          <p aria-label="5 out of 5 stars">★★★★★ <span>(32)</span></p>
-          <p>$78.35</p>
-          <a href="#cart">Add to Cart</a>
-        </article>
+                <article>
+                    <p>Customer favorite</p>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3gnx3ezsTObMrluy-WD8FLzyfTWk9vhXTJ2VOVVBN33xvLyrSMmAN6fY&s=10"
+                        alt="Green eco-friendly kettle">
+                    <h3>Kettle &amp; Toaster eco-friendly set</h3>
+                    <p>Simple forms, lower-impact materials.</p>
+                    <p aria-label="4 out of 5 stars">★★★★☆ <span>(27)</span></p>
+                    <p>$43.65</p>
+                    <a href="#cart">Add to Cart</a>
+                </article>
 
-        <article>
-          <p>Editor's choice</p>
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3gnx3ezsTObMrluy-WD8FLzyfTWk9vhXTJ2VOVVBN33xvLyrSMmAN6fY&s=10" alt="Green eco-friendly kettle">
-          <h3>Kettle &amp; Toaster eco-friendly set</h3>
-          <p>Simple forms, lower-impact materials.</p>
-          <p aria-label="4 out of 5 stars">★★★★☆ <span>(27)</span></p>
-          <p>$43.65</p>
-          <a href="#cart">Add to Cart</a>
-        </article>
+                <article>
+                    <p>New</p>
+                    <img src="https://images.unsplash.com/photo-1610701596007-11502861dcfa?auto=format&fit=crop&w=700&q=80"
+                        alt="Bamboo kitchen utensils">
+                    <h3>Bamboo Made Utensil Holder</h3>
+                    <p>Natural materials for everyday use.</p>
+                    <p aria-label="5 out of 5 stars">★★★★★ <span>(51)</span></p>
+                    <p>$26.27</p>
+                    <a href="#cart">Add to Cart</a>
+                </article>
+            </div>
+        </section>
 
-        <article>
-          <p>New</p>
-          <img src="https://images.unsplash.com/photo-1610701596007-11502861dcfa?auto=format&fit=crop&w=700&q=80" alt="Bamboo kitchen utensils">
-          <h3>Bamboo Made Utensil Holder</h3>
-          <p>Natural materials for everyday use.</p>
-          <p aria-label="5 out of 5 stars">★★★★★ <span>(51)</span></p>
-          <p>$26.27</p>
-          <a href="#cart">Add to Cart</a>
-        </article>
-      </div>
-    </section>
+        <section id="new-arrivals" aria-labelledby="new-arrivals-title">
+            <header>
+                <p>Just in</p>
+                <h2 id="new-arrivals-title">New arrivals</h2>
+                <a href="#products">View collection</a>
+            </header>
 
-    <section id="new-arrivals" aria-labelledby="new-arrivals-title">
-      <header>
-        <p>Just in</p>
-        <h2 id="new-arrivals-title">New arrivals</h2>
-        <a href="#products">View collection</a>
-      </header>
+            <div>
+                <article>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrKjUfYMr5hih9c8hLL1zluh0oz7SxOiCW3oBa0udUDqCdU8Bj6IbSdk8&s=10"
+                        alt="Ceramic serving bowl">
+                    <h3>Handmade serving bowl</h3>
+                    <p>$34.20</p>
+                </article>
 
-      <div>
-        <article>
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrKjUfYMr5hih9c8hLL1zluh0oz7SxOiCW3oBa0udUDqCdU8Bj6IbSdk8&s=10" alt="Ceramic serving bowl">
-          <h3>Handmade serving bowl</h3>
-          <p>$34.20</p>
-        </article>
+                <article>
+                    <img src="https://media.istockphoto.com/id/1459412701/photo/wooden-kitchen-utensils-on-white-background-knolling-concept.jpg?s=612x612&w=0&k=20&c=qrT7DEYeQ91gS_IZoms_oG_wYF5zxdLi3rWM7OAhryM="
+                        alt="Wooden kitchen preparation tools">
+                    <h3>Wooden prep set</h3>
+                    <p>$29.90</p>
+                </article>
 
-        <article>
-          <img src="https://media.istockphoto.com/id/1459412701/photo/wooden-kitchen-utensils-on-white-background-knolling-concept.jpg?s=612x612&w=0&k=20&c=qrT7DEYeQ91gS_IZoms_oG_wYF5zxdLi3rWM7OAhryM=" alt="Wooden kitchen preparation tools">
-          <h3>Wooden prep set</h3>
-          <p>$29.90</p>
-        </article>
+                <article>
+                    <img src="https://img.drz.lazcdn.com/static/bd/p/2f92d8a3d2e89dd6ebedb5d193885cbd.jpg_720x720q80.jpg"
+                        alt="Glass storage jars">
+                    <h3>Glass storage jars</h3>
+                    <p>$21.50</p>
+                </article>
 
-        <article>
-          <img src="https://img.drz.lazcdn.com/static/bd/p/2f92d8a3d2e89dd6ebedb5d193885cbd.jpg_720x720q80.jpg" alt="Glass storage jars">
-          <h3>Glass storage jars</h3>
-          <p>$21.50</p>
-        </article>
+                <article>
+                    <img src="https://media.istockphoto.com/id/586162072/photo/various-kitchen-utensils.jpg?s=612x612&w=0&k=20&c=auwz9ZHqkG_UlKw5y-8UqvMLznA2PySQ_Jt3ameL1aU="
+                        alt="Reusable kitchen accessories">
+                    <h3>Everyday kitchen set</h3>
+                    <p>$45.80</p>
+                </article>
+            </div>
+        </section>
 
-        <article>
-          <img src="https://media.istockphoto.com/id/586162072/photo/various-kitchen-utensils.jpg?s=612x612&w=0&k=20&c=auwz9ZHqkG_UlKw5y-8UqvMLznA2PySQ_Jt3ameL1aU=" alt="Reusable kitchen accessories">
-          <h3>Everyday kitchen set</h3>
-          <p>$45.80</p>
-        </article>
-      </div>
-    </section>
+        <section id="gallery" aria-labelledby="gallery-title">
+            <h2 id="gallery-title">Designed for a greener kitchen</h2>
+            <figure>
+                <img src="https://plus.unsplash.com/premium_photo-1680127401632-dcc0f571d4b9?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Modern green-toned sustainable kitchen">
+                <figcaption>Thoughtful products, natural materials and timeless design for everyday living.</figcaption>
+            </figure>
+        </section>
 
-    <section id="gallery" aria-labelledby="gallery-title">
-      <h2 id="gallery-title">Designed for a greener kitchen</h2>
-      <figure>
-        <img src="https://plus.unsplash.com/premium_photo-1680127401632-dcc0f571d4b9?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Modern green-toned sustainable kitchen">
-        <figcaption>Thoughtful products, natural materials and timeless design for everyday living.</figcaption>
-      </figure>
-    </section>
+        <section id="about" aria-labelledby="about-title">
+            <div>
+                <p>Our promise</p>
+                <h2 id="about-title">Committed to sustainable materials</h2>
+                <p>We choose durable, reusable and responsibly sourced materials wherever possible — because small
+                    changes in the kitchen can make a meaningful difference over time.</p>
+            </div>
 
-    <section id="about" aria-labelledby="about-title">
-      <div>
-        <p>Our promise</p>
-        <h2 id="about-title">Committed to sustainable materials</h2>
-        <p>We choose durable, reusable and responsibly sourced materials wherever possible — because small changes in the kitchen can make a meaningful difference over time.</p>
-      </div>
-
-      <img src="https://images.unsplash.com/photo-1745178880285-e4854617e43e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Sustainable kitchen products and ingredients">
-    </section>
-  </main>
+            <img src="https://images.unsplash.com/photo-1745178880285-e4854617e43e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Sustainable kitchen products and ingredients">
+        </section>
+    </main>
 
 </body>
+
 </html>
