@@ -86,39 +86,49 @@
         </div>
       </header>
       <div id="all-gallery" class="grid-container">
-        <article>
-          <a href="#drinkware">
+        <article class="card">
+          <p class="shop-badge">Shop <svg class="icon">
+              <use href="#icon-arrow-right"></use>
+            </svg></p>
+          <a >
             <img src="https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=700&q=80"
               alt="Reusable green water bottle">
-            <h3>Drinkware</h3>
-            <span>Explore</span>
+            <p class="shop-text">Explore <span class="custom-text">DrinkWare</span></p>
+
           </a>
         </article>
-        <article>
+          <article class="card">
+          <p class="shop-badge">Shop <svg class="icon">
+              <use href="#icon-arrow-right"></use>
+            </svg></p>
           <a href="#cookware">
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYzm7Iv1k-PxANBqKG-Uce1IRp-0Nuurib8RWPwBjG16I0PD7rxmLW_Dw&s=10"
               alt="Cookware in a kitchen">
-            <h3>Cookware</h3>
-            <span>Explore</span>
+            <p class="shop-text">Explore <span class="custom-text">CookWare</span></p>
+
           </a>
         </article>
 
-        <article>
+          <article class="card">
+          <p class="shop-badge">Shop <svg class="icon">
+            <use href="#icon-arrow-right"></use>
+          </svg></p>
           <a href="#tableware">
             <img
               src="https://static.vecteezy.com/system/resources/thumbnails/038/936/847/small/ai-generated-kitchen-utensils-on-wooden-table-over-blue-wall-background-photo.jpg"
               alt="Wooden kitchen utensils">
-            <h3>Tableware</h3>
-            <span>Explore</span>
+            <p class="shop-text">Explore <span class="custom-text">TableWare</span></p>
           </a>
         </article>
-        <article>
+          <article class="card">
+          <p class="shop-badge">Shop <svg class="icon">
+              <use href="#icon-arrow-right"></use>
+            </svg></p>
           <a href="#storage">
             <img src="https://images.unsplash.com/photo-1590794056226-79ef3a8147e1?auto=format&fit=crop&w=700&q=80"
               alt="Reusable food storage containers">
-            <h3>Food Storage</h3>
-            <span>Explore</span>
+            <p class="shop-text">Explore <span class="custom-text">FoodStorage</span></p>
           </a>
         </article>
       </div>
@@ -182,11 +192,11 @@
       </div>
     </section>
 
-    <section id="new-arrivals" aria-labelledby="new-arrivals-title">
+    <section id="gallery" aria-labelledby="gallery-title">
       <header>
         <div style="display: flex;align-items:center;justify-content:space-between;">
 
-        <h2 id="new-arrivals-title">New arrivals</h2>
+        <h2 id="gallery-title">Gallery</h2>
         <a href="#products" class="link">View collection</a>
       </div>
       </header>
@@ -197,7 +207,6 @@
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrKjUfYMr5hih9c8hLL1zluh0oz7SxOiCW3oBa0udUDqCdU8Bj6IbSdk8&s=10"
             alt="Ceramic serving bowl">
           <h3>Handmade serving bowl</h3>
-          <p>$34.20</p>
         </article>
 
         <article class="card">
@@ -205,14 +214,12 @@
             src="https://media.istockphoto.com/id/1459412701/photo/wooden-kitchen-utensils-on-white-background-knolling-concept.jpg?s=612x612&w=0&k=20&c=qrT7DEYeQ91gS_IZoms_oG_wYF5zxdLi3rWM7OAhryM="
             alt="Wooden kitchen preparation tools">
           <h3>Wooden prep set</h3>
-          <p>$29.90</p>
         </article>
 
         <article class="card">
           <img src="https://img.drz.lazcdn.com/static/bd/p/2f92d8a3d2e89dd6ebedb5d193885cbd.jpg_720x720q80.jpg"
             alt="Glass storage jars">
           <h3>Glass storage jars</h3>
-          <p>$21.50</p>
         </article>
 
         <article class="card">
@@ -220,24 +227,46 @@
             src="https://media.istockphoto.com/id/586162072/photo/various-kitchen-utensils.jpg?s=612x612&w=0&k=20&c=auwz9ZHqkG_UlKw5y-8UqvMLznA2PySQ_Jt3ameL1aU="
             alt="Reusable kitchen accessories">
           <h3>Everyday kitchen set</h3>
-          <p>$45.80</p>
         </article>
       </div>
     </section>
 
-    <section id="gallery" aria-labelledby="gallery-title">
-      <h2 id="gallery-title">Designed for a greener kitchen</h2>
-      <figure>
-        <img
-          src="https://plus.unsplash.com/premium_photo-1680127401632-dcc0f571d4b9?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          alt="Modern green-toned sustainable kitchen">
-        <figcaption>Thoughtful products, natural materials and timeless design for everyday living.</figcaption>
-      </figure>
+    <section id="reviews" aria-labelledby="reviews-title">
+      <h2 id="reviews-title">Reviews</h2>
+      <div style="background: #cfcbbe;"><h3>4.9/5 Reviews</h3>
+      <div class="grid-container" style="background: #d1d1c9;">
+        <article class="review-card">
+        <p>Fantastic products and fast delivery.</p>
+        <h3>John Carpenter</h3>
+        <p>soup chef</p>
+        </article>
+        <article class="review-card">
+          <p>Fantastic products and fast delivery.</p>
+        <h3>John Carpenter</h3>
+        <p>soup chef</p>
+
+
+        </article>
+        <article class="review-card">
+          <p>Fantastic products and fast delivery.</p>
+        <h3>John Carpenter</h3>
+        <p>soup chef</p>
+
+
+        </article>
+        <article class="review-card">
+          <p>Fantastic products and fast delivery.</p>
+        <h3>John Carpenter</h3>
+        <p>soup chef</p>
+
+
+        </article>
+      </div>
+      </div>
     </section>
 
     <section id="about" aria-labelledby="about-title">
       <div>
-        <p>Our promise</p>
         <h2 id="about-title">Committed to sustainable materials</h2>
         <p>We choose durable, reusable and responsibly sourced materials wherever possible — because small changes in
           the
@@ -248,6 +277,10 @@
         alt="Sustainable kitchen products and ingredients">
 
     </section>
+
+    <footer class="footer">
+      2026 Homedine.
+    </footer>
   </main>
 </body>
 
