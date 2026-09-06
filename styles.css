@@ -103,7 +103,16 @@ nav {
     gap: 1.5rem;
     margin-bottom: 2rem;
 }
-
+.about-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem;
+}
 .rating-score {
     font-size: 3.5rem;
     font-weight: bold;
@@ -128,6 +137,7 @@ nav {
     align-items: center;
     padding: 3rem 0 5rem 0;
     overflow: hidden;
+    margin:0;
 }
 
 .review-grid {
