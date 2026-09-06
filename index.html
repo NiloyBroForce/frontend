@@ -19,23 +19,21 @@
 
   <header class="nav-header ">
 
-    <nav aria-label="Main navigation"
-      style="max-width:1200px;padding:20px 20px;display:flex;align-items:center;justify-content:space-between;position:relative;">
-      <div style="display:flex;gap:22px;align-items:center;">
-
+    <nav class="nav-container"aria-label="Main navigation">
+      
+      <div class="nav-left">
         <a class="nav-link" href="#shop">Shop</a>
         <a class="nav-link" href="#bestsellers">Bestsellers</a>
         <a class="nav-link" href="#gallery">Gallery</a>
         <a class="nav-link" href="#about">About</a>
       </div>
 
-      <a href="#" aria-label="home page"
-        style='text-decoration:none;color:white;position:absolute;left:50%;font-size:24px;font-weight: 700;transform: translateX(-50%);'>Homedine</a>
+    <a href="#" class="nav-title" aria-label="home page">Homedine</a>
 
-      <div class="form">
+      <div class="nav-right">
         <form action="#" method="get" role="search" style="display:flex;align-items:center;">
           <label for="search" style="position:absolute;overflow:hidden;"></label>
-          <input id="search" name="q" type="search" placeholder="⌕ Search products" class="search">
+          <input id="search" name="q" type="search" placeholder="⌕ Search products..." class="search">
 
         </form>
 
@@ -136,7 +134,6 @@
 
     <section id="bestsellers" aria-labelledby="bestsellers-title">
       <header>
-        <p>Eco essentials</p>
         <div style="display: flex;align-items:center;justify-content:space-between;">
           <h2 id="bestsellers-title">Bestselling products</h2>
           <a href="#products" class="link">More products <svg class="icon">
@@ -233,34 +230,50 @@
 
     <section id="reviews" aria-labelledby="reviews-title">
       <h2 id="reviews-title">Reviews</h2>
-      <div style="background: #cfcbbe;"><h3>4.9/5 Reviews</h3>
-      <div class="grid-container" style="background: #d1d1c9;">
+
+     
+      <div class="review-grid-wrapper"style="background: #cfcbbe;">
+      <header class="header-content">
+        <div class="rating-box">
+          <span class="rating-score">4.9</span>
+          <span class="rating-max">/5</span>
+        </div>
+        <p class="rating-text">
+          More than <span style="font-weight:700">25,000</span>
+          <span style="font-weight:700">5-star</span> Reviews for Our Award-Winning 
+          Eco Products
+        </p>
+      </header>
+      <div class="review-grid" style="background: #d1d1c9;">
         <article class="review-card">
-        <p>Fantastic products and fast delivery.</p>
+        <p>Fantastic products and fast delivery. My kitchen feels so much greener!</p>
         <h3>John Carpenter</h3>
         <p>soup chef</p>
         </article>
-        <article class="review-card">
-          <p>Fantastic products and fast delivery.</p>
-        <h3>John Carpenter</h3>
-        <p>soup chef</p>
+        <article class="review-card" style="align-self: center;">
+          <p>Sustainable kitchen items that truly last! The bamboo utensils are sturdy and feel super comfortable to use daily.</p>
+        <h3>Courtney Henry</h3>
+        <p>Nutritionalist</p>
 
 
         </article>
         <article class="review-card">
-          <p>Fantastic products and fast delivery.</p>
-        <h3>John Carpenter</h3>
-        <p>soup chef</p>
+          <p>HomeDine's glass jars are awesome for storage, and the bamboo utensils are perfect for daily use!</p>
+        <h3>Jane Cooper</h3>
+        <p>Culinary Instructor</p>
 
 
         </article>
         <article class="review-card">
-          <p>Fantastic products and fast delivery.</p>
-        <h3>John Carpenter</h3>
-        <p>soup chef</p>
-
-
+          <p>Love HomeDine's eco-style! Glass jars keep things fresh, and bamboo utensils are so chic.</p>
+        <h3>Jacob Jone</h3>
+        <p>Food blogger</p>
         </article>
+          <article class="review-card">
+            <p>Love HomeDine's eco-style! Glass jars keep things fresh, and bamboo utensils are so chic.</p>
+            <h3>Jacob Jone</h3>
+            <p>Food blogger</p>
+          </article>
       </div>
       </div>
     </section>
