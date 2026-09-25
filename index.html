@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Homedine</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="main.css">
+
+  
 
 </head>
 
@@ -37,7 +40,7 @@
 
         </form>
 
-        <a class="nav-link" href="#cart" aria-label="Shopping cart"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+        <a id="cart" class="cartbar nav-link" href="#cart" aria-label="Shopping cart"><svg xmlns="http://www.w3.org/2000/svg" width="16"
             height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
             <path
               d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
@@ -91,51 +94,6 @@
         </div>
       </header>
       <div id="all-gallery" class="grid-container">
-        <article class="card">
-          <p class="shop-badge">Shop <svg class="icon">
-              <use href="#icon-arrow-right"></use>
-            </svg></p>
-          <a >
-            <img src="https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=700&q=80"
-              alt="Reusable green water bottle">
-            <p class="shop-text">Explore <span class="custom-text">DrinkWare</span></p>
-
-          </a>
-        </article>
-          <article class="card">
-          <p class="shop-badge">Shop <svg class="icon">
-              <use href="#icon-arrow-right"></use>
-            </svg></p>
-          <a href="#cookware">
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYzm7Iv1k-PxANBqKG-Uce1IRp-0Nuurib8RWPwBjG16I0PD7rxmLW_Dw&s=10"
-              alt="Cookware in a kitchen">
-            <p class="shop-text">Explore <span class="custom-text">CookWare</span></p>
-
-          </a>
-        </article>
-
-          <article class="card">
-          <p class="shop-badge">Shop <svg class="icon">
-            <use href="#icon-arrow-right"></use>
-          </svg></p>
-          <a href="#tableware">
-            <img
-              src="https://static.vecteezy.com/system/resources/thumbnails/038/936/847/small/ai-generated-kitchen-utensils-on-wooden-table-over-blue-wall-background-photo.jpg"
-              alt="Wooden kitchen utensils">
-            <p class="shop-text">Explore <span class="custom-text">TableWare</span></p>
-          </a>
-        </article>
-          <article class="card">
-          <p class="shop-badge">Shop <svg class="icon">
-              <use href="#icon-arrow-right"></use>
-            </svg></p>
-          <a href="#storage">
-            <img src="https://images.unsplash.com/photo-1590794056226-79ef3a8147e1?auto=format&fit=crop&w=700&q=80"
-              alt="Reusable food storage containers">
-            <p class="shop-text">Explore <span class="custom-text">FoodStorage</span></p>
-          </a>
-        </article>
       </div>
     </section>
 
@@ -149,50 +107,6 @@
         </div>
       </header>
       <div id="products" class="grid-container">
-        <article class="card">
-          <p class="badge">Bestseller</p>
-          <img src="https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=700&q=80"
-            alt="Reusable green drinkware bottle">
-          <h3>Reusable drinkware for a greener lifestyle</h3>
-          <div style="display: flex; justify-content: space-between; align-items: center;">
-            <p class="cost">$43.05</p>
-            <a href="#cart" class="cart">+ Cart</a>
-          </div>
-        </article>
-
-        <article class="card">
-          <p class="badge">New</p>
-          <img src="https://images.unsplash.com/photo-1590794056226-79ef3a8147e1?auto=format&fit=crop&w=700&q=80"
-            alt="Non-toxic cookware set">
-          <h3>Non-toxic cookware for sustainable cooking</h3>
-          <div style="display: flex; justify-content: space-between; align-items: center;">
-            <p class="cost">$78.35</p>
-            <a href="#cart" class="cart">+ Cart</a>
-          </div>
-        </article>
-
-        <article class="card">
-          <p class="badge">Editor's choice</p>
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3gnx3ezsTObMrluy-WD8FLzyfTWk9vhXTJ2VOVVBN33xvLyrSMmAN6fY&s=10"
-            alt="Green eco-friendly kettle">
-          <h3>Kettle &amp; Toaster eco-friendly set</h3>
-          <div style="display: flex; justify-content: space-between; align-items: center;">
-            <p class="cost">$43.65</p>
-            <a href="#cart" class="cart">+ Cart</a>
-          </div>
-        </article>
-
-        <article class="card">
-          <p class="badge">New</p>
-          <img src="https://images.unsplash.com/photo-1610701596007-11502861dcfa?auto=format&fit=crop&w=700&q=80"
-            alt="Bamboo kitchen utensils">
-          <h3>Bamboo Made Utensil Holder</h3>
-          <div style="display: flex; justify-content: space-between; align-items: center;">
-            <p class="cost">$26.27</p>
-            <a href="#cart" class="cart">+ Cart</a>
-          </div>
-        </article>
       </div>
     </section>
 
@@ -205,33 +119,7 @@
       </div>
       </header>
 
-      <div class="grid-container">
-        <article class="card">
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrKjUfYMr5hih9c8hLL1zluh0oz7SxOiCW3oBa0udUDqCdU8Bj6IbSdk8&s=10"
-            alt="Ceramic serving bowl">
-          <h3>Handmade serving bowl</h3>
-        </article>
-
-        <article class="card">
-          <img
-            src="https://media.istockphoto.com/id/1459412701/photo/wooden-kitchen-utensils-on-white-background-knolling-concept.jpg?s=612x612&w=0&k=20&c=qrT7DEYeQ91gS_IZoms_oG_wYF5zxdLi3rWM7OAhryM="
-            alt="Wooden kitchen preparation tools">
-          <h3>Wooden prep set</h3>
-        </article>
-
-        <article class="card">
-          <img src="https://img.drz.lazcdn.com/static/bd/p/2f92d8a3d2e89dd6ebedb5d193885cbd.jpg_720x720q80.jpg"
-            alt="Glass storage jars">
-          <h3>Glass storage jars</h3>
-        </article>
-
-        <article class="card">
-          <img
-            src="https://media.istockphoto.com/id/586162072/photo/various-kitchen-utensils.jpg?s=612x612&w=0&k=20&c=auwz9ZHqkG_UlKw5y-8UqvMLznA2PySQ_Jt3ameL1aU="
-            alt="Reusable kitchen accessories">
-          <h3>Everyday kitchen set</h3>
-        </article>
+      <div id="gallery-products" class="grid-container">
       </div>
     </section>
 
@@ -295,6 +183,11 @@
       </div>
 
     </section>
+
+    <script src="main.js">
+document.write("gone!");
+
+    </script>
 
     <footer class="footer">
       2026 Homedine.
